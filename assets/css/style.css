@@ -1,0 +1,48 @@
+body {
+  display: flex;
+}
+.contactos {
+  display: flex;
+  flex-wrap: wrap;
+  width: 20%;
+  border: 1px;
+  justify-content: space-between;
+  border-style: solid;
+}
+.contactos img {
+  border-radius: 100px;
+  width: 100px;
+  height: 75px;
+}
+.contenido {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 98vh;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.contenido img {
+  border-radius: 15px;
+  width: 300px;
+  height: 300px;
+  align-self: center;
+}
+.cardcontenido {
+  text-align: center;
+}
+.card {
+  margin: 0px;
+  border: 0px;
+  border-style: solid;
+}
+.contactos button {
+  margin: 20%;
+  align-items: center;
+  background-color: blueviolet;
+}
+.cardestado {
+  display: flex;
+  width: 300px;
+}
